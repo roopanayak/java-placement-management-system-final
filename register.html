@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Register</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+              background-image: url(imgs/df.jpg);
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+              font-size: 25px;
+              
+            }
+        </style>
+    </head>
+    <body>
+         <h1><center><font color="black">REGISTER</font></center></h1>
+         
+         <form action="Register" method="POST">
+             <table bgcolor=lightblue align="right" width="600" height="300" border="3">
+                <tr>
+                     <td height="100" ><font color="black">Firstname :</font></td>
+                     <td > <input type="text" name="firstname" placeholder="First Name" required="required"></td>
+                </tr>
+                <tr>
+                    <td height="80" ><font color="black">Lastname :</font></td>
+                    <td> <input type="text" name="lastname" placeholder="Last Name"  required="required"></td>
+                </tr>
+                 <tr>
+                    <td height="80" ><font color="black">Branch :</font></td> 
+                    <td> <input type="text" name="branch" placeholder="branch"  required="required"></td>
+                </tr>
+                <tr>
+                    <td height="80" ><font color="black">Username :</font></td> 
+                    <td> <input type="text" name="username" placeholder="User Name"  required="required"></td>
+                </tr>
+                
+                <tr>
+                    <td height="80" ><font color="black">Password : </font></td>
+                    <td><input type="password" name="password"  pattern=".{4,8}" placeholder="minimum length of 4"    id="pass" required="required"></td>
+                </tr>
+                
+                <tr>
+                    <td height="80" ><font color="black">Email id: </font></td>
+                    <td><input type="text" name="email"  id="email" ></td>
+                 </tr>
+                 <tr>
+                    <td height="80" ><font color="black">Type Of User</font></td>
+                    <td> 
+                        <select name="userId">
+                          <option value="1">Admin</option>
+                          <option value="2">Student</option>
+                       </select>
+                    </td>
+                </tr>
+                <tr>
+                     <td height="60" ><font color="black"><center><input type="submit" ></center></font></td>
+                </tr>
+            </table>
+         </form>
+    </body>
+</html>

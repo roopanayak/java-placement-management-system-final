@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Add placement Data</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+              background-image: url(imgs/d5.jpg);
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+               <h1><center><font color="black">Add Placement Data</font></center></h1>
+         
+         <form action="AddPlacement" method="POST">
+             <table bgcolor=lightblue align="center" width="700" height="400" border="3">
+                <tr>
+                     <td height="80" ><font color="black">Company Name :</font></td>
+                     <td > <input type="text" name="cname" placeholder="Company Name" required="required"></td>
+                </tr>
+                <tr>
+                    <td height="80" ><font color="black">Package :</font></td>
+                    <td> <input type="text" name="package" placeholder="Package "  required="required"></td>
+                </tr>
+                 <tr>
+                    <td height="80" ><font color="black">No OF Students :</font></td> 
+                    <td> <input type="text" name="no_students" placeholder="No of Placed Students"  required="required"></td>
+                </tr>
+                <tr>
+                    <td height="80" ><font color="black">Branch :</font></td> 
+                    <td> <input type="text" name="branch" placeholder="Branch"  required="required"></td>
+                </tr>
+                
+                <tr>
+                     <td height="60" ><font color="black"><center><input type="submit" value="Add Data"></center></font></td>
+                </tr>
+            </table>
+         </form> 
+    </body>
+</html>

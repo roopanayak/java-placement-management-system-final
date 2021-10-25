@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+              background-image: url(imgs/clg.jpg);
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+              font-size: 30px;
+            }
+        </style>
+    </head>
+    <body >
+        <h1><center><font color="black">Login</font></center></h1>        
+        <form  action="demo" method="POST">
+            <table bgcolor=transparent align="center" width="500" height="400" border="3">
+                <tr>
+                    <td height="80" ><font color="black">Username :</font></td> 
+                    <td> <input type="text" name="username" placeholder="User Name"  required="required"></td>
+		</tr>
+		<tr>
+                    <td height="80" ><font color="black">Password : </font></td>
+                    <td><input type="password" name="password"  pattern=".{4,8}" placeholder="minimum length of 4"    id="pass" required="required"></td>
+                </tr>
+                <tr>
+                    <td height="60" ><font color="black"><center><input type="submit" ></center></font></td>
+                    <td ><font color="black"><a href="register.html">New user?</a></font></td>
+                </tr>
+            </table>
+        </form>
+        
+    </body>
+</html>

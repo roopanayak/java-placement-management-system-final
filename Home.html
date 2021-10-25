@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Placement Management System </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+              background-image: url(imgs/pg.jpg);
+              min-height:500px;
+              background-repeat: no-repeat;
+              background-position:center;
+              background-attachment:fixed;
+              background-size: cover;
+              font-size: 25px;
+            }
+            .container { 
+              height: 200px;
+              position: relative;
+              border: 3px solid green; 
+            }
+
+            .vertical-center {
+              margin: 0;
+              position: absolute;
+              top: 20%;
+              left: 80%;
+              -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+            }
+            .button {
+                background-color: darkturquoise;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            .button:hover {
+                background-color: dimgrey;
+                color: white;
+            }
+            #myBtn
+        {
+               background-color: darkturquoise;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+        }           
+        </style>
+    </head>
+    <body>
+        <center><h1><font color="black">PLACEMENT MANAGEMENT SYSTEM</font></h1></center>
+        <div>
+            <div class=container">
+                <div class="vertical-center">
+                    <table>
+                        <tr>
+                            <td><button onclick="window.location.href = 'index.html'" style="border:1px solid blue;" class="button">Login</button></td>
+                            <td><button onclick="window.location.href = 'register.html'" style="border:1px solid blue;"class="button">Register</button></td>
+                            <td><button onclick="window.location.href = 'dept.html'" style="border:1px solid blue;"class="button">Departments</button></td>
+                            <td><button onclick="window.location.href = 'addplacement.html'" style="border:1px solid blue;"class="button">Placement </button></td>
+                        </tr>
+                        
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
